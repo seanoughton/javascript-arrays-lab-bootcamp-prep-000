@@ -34,4 +34,5 @@ const app = "I don't do much."
  
  function prependKitten(name){
    var newArray = [name,...kittens]
+   return newArray
  }
