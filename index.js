@@ -38,6 +38,6 @@ const app = "I don't do much."
  }
  
  function removeLastKitten() {
-   var newArray = kittens.slice(-1)
+   var newArray = kittens.slice()
    return newArray
  }
