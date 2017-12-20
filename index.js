@@ -38,7 +38,7 @@ const app = "I don't do much."
  }
  
  function removeLastKitten() {
-   var newArray = kittens.slice(0,-1)
+   var newArray = kittens.slice(0,(kittens.length-1) )
    return newArray
  }
  
