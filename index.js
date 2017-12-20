@@ -32,4 +32,6 @@ const app = "I don't do much."
    return newArray
  }
  
- function 
+ function prependKitten(name){
+   var newArray = [name,...kittens]
+ }
