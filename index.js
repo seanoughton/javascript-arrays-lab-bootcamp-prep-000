@@ -41,3 +41,8 @@ const app = "I don't do much."
    var newArray = kittens.slice()
    return newArray
  }
+ 
+ function removeFirstKitten() {
+   var newArray = kittens.slice(1)
+   return newArray
+ }
