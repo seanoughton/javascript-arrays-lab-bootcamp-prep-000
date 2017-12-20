@@ -26,3 +26,7 @@ const app = "I don't do much."
  function destructivelyRemoveFirstKitten() {
    kittens.shift()
  }
+ 
+ function appendKitten(name){
+   
+ }
