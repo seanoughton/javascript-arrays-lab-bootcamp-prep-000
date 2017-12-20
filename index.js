@@ -36,3 +36,7 @@ const app = "I don't do much."
    var newArray = [name,...kittens]
    return newArray
  }
+ 
+ function removeLastKitten() {
+   var newArray = 
+ }
